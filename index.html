@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAGE Framework — Efficient AI Inference</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, sans-serif; background: #0a0a0a; color: #e0e0e0; }
+    header { padding: 80px 40px; text-align: center; border-bottom: 1px solid #222; }
+    h1 { font-size: 3rem; color: #76b900; margin-bottom: 16px; }
+    .tagline { font-size: 1.3rem; color: #aaa; max-width: 600px; margin: 0 auto; }
+    section { padding: 60px 40px; max-width: 800px; margin: 0 auto; }
+    h2 { color: #76b900; font-size: 1.5rem; margin-bottom: 20px; }
+    p { line-height: 1.8; color: #ccc; margin-bottom: 20px; }
+    .stat { font-size: 2.5rem; color: #fff; font-weight: bold; }
+    .stat-label { color: #888; font-size: 0.9rem; }
+    .stats { display: flex; gap: 60px; margin: 40px 0; }
+    .badge { display: inline-block; background: #1a1a1a; border: 1px solid #333;
+             padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; color: #76b900; }
+    footer { text-align: center; padding: 40px; color: #555; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SAGE Framework</h1>
+  <p class="tagline">Semantic Adaptive Graph Engine — 90% VRAM reduction for large AI model inference</p>
+  <br>
+  <span class="badge">Research Phase</span>
+  <span class="badge" style="margin-left:8px">Pre-product</span>
+</header>
+
+<section>
+  <h2>The Problem</h2>
+  <p>Running a 1-trillion-parameter AI model requires approximately 2,000 GB of VRAM — accessible only to organizations with $30,000+ GPU clusters. This hardware barrier locks 99% of the world out of advanced AI capabilities.</p>
+  <p>Existing optimization approaches (quantization, pruning, distillation) reduce model size but preserve the activation pattern: 100% of remaining parameters still activate per inference, regardless of query relevance.</p>
+</section>
+
+<section>
+  <h2>Our Approach</h2>
+  <p>SAGE is a framework that dramatically reduces the active memory footprint of large language models during inference, enabling frontier-scale AI to run on consumer hardware — without retraining or model modification.</p>
+
+  <div class="stats">
+    <div>
+      <div class="stat">90%</div>
+      <div class="stat-label">VRAM reduction</div>
+    </div>
+    <div>
+      <div class="stat">8M×</div>
+      <div class="stat-label">fewer FLOPs (1T model)</div>
+    </div>
+    <div>
+      <div class="stat">1–4 GB</div>
+      <div class="stat-label">active VRAM target</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Impact</h2>
+  <p>SAGE enables trillion-parameter AI models to run on consumer GPUs (RTX 3060 Ti, 8GB VRAM), smartphones, and edge devices — fully offline, without cloud dependency. The goal is to democratize access to advanced AI for the global general public.</p>
+</section>
+
+<section>
+  <h2>Status</h2>
+  <p>Currently in research and architectural specification phase. Mathematical complexity analysis completed. Experiments planned at GPT-2, 1B, and 7B parameter scales using NVIDIA GPU infrastructure.</p>
+  <p>Founder: Leonardo Nunes — Software Architect & AI Researcher, Rio de Janeiro, Brazil.</p>
+  <p>Contact: <a href="mailto:seu@email.com" style="color:#76b900">seu@email.com</a></p>
+</section>
+
+<footer>
+  © 2026 SAGE Framework. All rights reserved.
+</footer>
+
+</body>
+</html>
